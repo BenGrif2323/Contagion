@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    background: black;
+    color: greenyellow;
+}
+
+.stage {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(25, 1.5rem);
+    align-items: center;
+}
+
+.box {
+    background: white;
+    color: black;
+    height: 1.5rem;
+    width: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+}
+
+.box p {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+
+.stat {
+    flex: 1 0 0;
+}
+
+.stat h3 {
+    margin: 1rem;
+    height: 3rem;
+}
+
+.stat p {
+    border-left: 1px solid greenyellow;
+    border-bottom: 1px solid greenyellow;
+    border-right: 1px solid greenyellow;
+    margin: 0;
+}
+
+.stat .p0 {
+    border-top: 1px solid greenyellow;
+
+    margin: 0;
+}
