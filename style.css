@@ -36,11 +36,11 @@ body {
 .info {
     display: flex;
     flex-flow: row nowrap;
-    
+    justify-content: center;
 }
 
 .stat {
-    flex: 1 0 0;
+    flex: 0 0 15%;
 }
 
 .stat h3 {
@@ -49,14 +49,16 @@ body {
 }
 
 .stat p {
-    border-left: 1px solid greenyellow;
-    border-bottom: 1px solid greenyellow;
-    border-right: 1px solid greenyellow;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
     margin: 0;
+    background: white;
+    color: black;
 }
 
 .stat .p0 {
-    border-top: 1px solid greenyellow;
+    border-top: 1px solid black;
 
     margin: 0;
 }
